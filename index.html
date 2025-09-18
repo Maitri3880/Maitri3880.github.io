@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio - Maitri Mistry</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav>
+        <ul class="nav-links">
+            <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#projects"><i class="fas fa-user"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-paper-plane"></i> Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-container">
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1 class="hero-name">MAITRI MISTRY</h1>
+            <h2 class="typewriter">
+                <span id="type-text"></span><span id="cursor"></span>
+            </h2>
+
+            <p class="hero-description">
+            Data professional with 4+ years of experience building reliable data pipelines and analytics solutions that drive efficiency and strategic decision-making. My expertise includes developing ETL/ELT pipelines, real-time streaming systems, and dimensional models with <span class="skill-highlight">Python, SQL, Spark, and dbt on cloud platforms such as AWS and Azure. </span> 
+            </p>
+
+            <p class="hero-description">
+            I also create impactful dashboards and reporting solutions with <span class="skill-highlight"> Power BI and Tableau </span>, enabling teams to make smarter and faster decisions. With a proven track record of improving data quality and scalability, I have reduced pipeline failures, accelerated reporting cycles, and optimized query performance to deliver robust, business-focused data solutions.
+            </p>
+
+        </div>
+        <!-- Hero Image -->
+        <div class="hero-image">
+            <img src="C:\Users\User\OneDrive\Desktop\Portfolio\images\image-me-5.jpg" alt="Maitri Mistry">
+        </div>
+    </section>
+
+    <!-- Social Icons + Resume -->
+    <div class="social-resume">
+        <a href="https://www.linkedin.com/in/maitri-mistry/" class="social-btn" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Maitri3880" class="social-btn" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:maitri.mistry3880@gmail.com" class="social-btn">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-card-container">
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="0">
+                <h3>Programming Languages</h3>
+                <div class="skill-chip">Python</div>
+                <div class="skill-chip">SQL</div>
+                <div class="skill-chip">Spark (PySpark)</div>
+                <div class="skill-chip">R</div>
+            </div>
+
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="0">
+                <h3>Data Engineering & ETL/ELT</h3>
+                <div class="skill-chip">Apache Spark</div>
+                <div class="skill-chip">dbt</div>
+                <div class="skill-chip">AWS Glue</div>
+                <div class="skill-chip">AWS Lambda</div>
+                <div class="skill-chip">Microsoft SSIS</div>
+            </div>
+
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="0">
+                <h3>Databases & Storage</h3>
+                <div class="skill-chip">Snowflake</div>
+                <div class="skill-chip">Amazon Redshift</div>
+                <div class="skill-chip">Amazon S3</div>
+                <div class="skill-chip">DynamoDB</div>
+                <div class="skill-chip">MongoDB</div>
+                <div class="skill-chip">SQL Server</div>
+                <div class="skill-chip">PostgreSQL</div>
+                <div class="skill-chip">Oracle</div>
+            </div>
+
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="0">
+                <h3>Big Data & Streaming</h3>
+                <div class="skill-chip">Apache Kafka (MSK)</div>
+                <div class="skill-chip">AWS EMR</div>
+            </div>
+
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="20">
+                <h3>DevOps & Orchestration</h3>
+                <div class="skill-chip">Docker</div>
+                <div class="skill-chip">Jenkins</div>
+                <div class="skill-chip">GitHub Actions</div>
+                <div class="skill-chip">Apache Airflow</div>
+                <div class="skill-chip">Terraform</div>
+                <div class="skill-chip">Amazon CloudWatch</div>
+            </div>
+
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="20">
+                <h3>Data Visualization</h3>
+                <div class="skill-chip">Power BI (DAX, Power Query)</div>
+                <div class="skill-chip">Tableau</div>
+                <div class="skill-chip">Excel (PivotTables, Macros)</div>
+            </div>
+
+            <div class="skill-card top-gradient-border" data-aos="fade-up" data-aos-delay="20">
+                <h3>Analytics & Modeling</h3>
+                <div class="skill-chip">Exploratory Data Analysis</div>
+                <div class="skill-chip">Statistical Modeling</div>
+                <div class="skill-chip">Regression Analysis</div>
+                <div class="skill-chip">Time Series Forecasting</div>
+                <div class="skill-chip">Predictive Analytics</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline-wrapper">
+            <!-- Timeline Entry 0 -->
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="timeline-dot" data-aos="zoom-in" data-aos-delay="20"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Jun 2024 – Present</div>
+                    <h3 class="job-title">Data Analyst</h3>
+                    <p class="company"><strong>UMBC (Health Data Lab)</strong> • 4 months</p>
+                    <ul class="job-details">
+                        <li>Designed Power BI dashboards with advanced DAX measures to track 11+ KPIs, enabling faster policy decisions. </li>
+                        <li>Automated data validation across 500K+ Medicaid claims using SQL and Python, ensuring data integrity for cost and utilization analysis.</li>
+                        <li>Enforced HIPAA compliance by applying cloud-native access controls and key management services to safeguard PHI.</li>
+                        <li>Developed forecasting models to project healthcare utilization trends, guiding resource allocation decisions.</li>
+                    </ul>
+                    <div class="skill-chip">SQL</div>
+                    <div class="skill-chip">Python</div>
+                    <div class="skill-chip">Forecasting</div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 1 -->
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="timeline-dot" data-aos="zoom-in" data-aos-delay="20"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Jan 2024 – Present</div>
+                    <h3 class="job-title">Data Analyst</h3>
+                    <p class="company"><strong>UMBC</strong> • 1 year 8 months</p>
+                    <ul class="job-details">
+                        <li>Engineered AWS ETL pipelines (S3, EMR, Glue) ingesting 120K+ student records from databases, flat files, and REST APIs for enrollment and retention analytics. </li>
+                        <li>Created 15+ dbt models and materialized views in Redshift, delivering curated datasets supporting retention KPIs and accreditation benchmarks.</li>
+                        <li>Analyzed student data with SQL to uncover performance trends, providing insights that informed academic support programs.</li>
+                        <li>Delivered Tableau dashboards on enrollment and graduation outcomes, highlighting program metrics that informed curriculum planning. </li>
+                        <li>Automated ETL deployments with Terraform, reducing setup time from ~5 hours to minutes.</li>
+                    </ul>
+                    <div class="skill-chip">dbt</div>
+                    <div class="skill-chip">AWS</div>
+                    <div class="skill-chip">Terraform</div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 2 -->
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="timeline-dot" data-aos="zoom-in" data-aos-delay="20"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Jun 2021 – Jun 2023</div>
+                    <h3 class="job-title">Analytics Engineer</h3>
+                    <p class="company"><strong>Bank of America</strong> • 2 years</p>
+                    <ul class="job-details">
+                        <li>Developed real-time pipelines using Spark and Kafka on Databricks, processing 2M+ daily transactions to support fraud detection systems. </li>
+                        <li>Built risk analytics data marts with partitioning and clustering, streamlining access for 10+ analysts.</li>
+                        <li>Identified risk patterns with SQL and Python that informed policy refinements, contributing to a 9% reduction in default rates.</li>
+                        <li>Enhanced Power BI dashboards to visualize credit risk KPIs, providing executives with clearer visibility into portfolio health for quarterly reviews.</li>
+                        <li>Optimized high-volume financial queries by 25% through indexing, partitioning, and query refactoring.</li>
+                        <li>Collaborated with risk and compliance teams to define KPIs and build Power BI dashboards aligned with business and regulatory requirements. </li>
+                    </ul>
+                    <div class="skill-chip">SQL</div>
+                    <div class="skill-chip">Apache Spark</div>
+                    <div class="skill-chip">Airflow</div>
+                    <div class="skill-chip">Data Modeling</div>
+                    <div class="skill-chip">Power BI</div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 3 -->
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="timeline-dot" data-aos="zoom-in" data-aos-delay="20"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Jan 2021 – May 2021</div>
+                    <h3 class="job-title">ML Research Intern</h3>
+                    <p class="company"><strong>Binghamton University</strong> • 5 months</p>
+                    <ul class="job-details">
+                        <li>Performed statistical analysis on 200K+ manufacturing records using Python, identifying key process parameters driving PCB defect rates. </li>
+                        <li>Developed and evaluated machine learning models (Random Forest, XGBoost, Neural Network) to predict alignment offsets, achieving 20% reduction in defect rates and improving PCB quality.</li>
+                    </ul>
+                    <div class="skill-chip">EDA</div>
+                    <div class="skill-chip">ML</div>
+                    <div class="skill-chip">Python</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="education-grid">
+            <!-- UMBC Card -->
+            <div class="education-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="school-header">
+                    <div class="school-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="school-info">
+                        <h3>University of Maryland, Baltimore County</h3>
+                        <p class="school-location">Baltimore, Maryland</p>
+                    </div>
+                </div>
+                
+                <div class="degree-info">
+                    <div class="degree-details">
+                        <div class="degree-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Master's in Computer Science</span>
+                        </div>
+                        <div class="degree-dates">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Aug 2023 – May 2025</span>
+                        </div>
+                    </div>
+                    <div class="gpa-badge">GPA: 3.7</div>
+                </div>
+                
+                <div class="coursework-section">
+                    <div class="coursework-title">Key Coursework</div>
+                    <ul class="coursework-list">
+                        <li>Machine Learning</li>
+                        <li>Data Science</li>
+                        <li>Natural Language Processing</li>
+                        <li>Interactive Fiction and Text Generation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Nirma University Card -->
+            <div class="education-card" data-aos="fade-up" data-aos-delay="20">
+                <div class="school-header">
+                    <div class="school-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="school-info">
+                        <h3>Nirma University</h3>
+                        <p class="school-location">Ahmedabad, India</p>
+                    </div>
+                </div>
+                
+                <div class="degree-info">
+                    <div class="degree-details">
+                        <div class="degree-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Bachelor's in Computer Engineering</span>
+                        </div>
+                        <div class="degree-dates">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Aug 2017 – May 2021</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="coursework-section">
+                    <div class="coursework-title">Key Coursework</div>
+                    <ul class="coursework-list">
+                        <li>Database Management Systems</li>
+                        <li>Deep Learning</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Software Engineering</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="timeline-card" data-aos="fade-up" data-aos-delay="0">
+                <img src="C:\Users\User\OneDrive\Desktop\Portfolio\images\Car-parking-detection.png" alt="Parking Detection">
+                <h3 class="job-title">Parking Occupancy Detection System</h3>
+                <p class="job-details">
+                    Developed a deep learning-based parking occupancy detection system using satellite imagery, achieving 90.6% mAP with YOLO/CNN architecture. Built a Flask web application with a PostgreSQL backend and deployed it on AWS EC2 for real-time monitoring.
+                </p>
+                <div class="skill-chip">Python</div>
+                <div class="skill-chip">Flask</div>
+                <div class="skill-chip">PostgreSQL</div>
+                <div class="skill-chip">AWS EC2</div>
+                <div class="project-buttons">
+                    <a href="https://github.com/Maitri3880/Parking-Space-Detection-System" class="skill-chip project-link" target="_blank">Code</a>
+                </div>
+            </div>      
+            
+            <!-- Project 2 -->
+            <div class="timeline-card" data-aos="fade-up" data-aos-delay="0">
+                <img src="C:\Users\User\OneDrive\Desktop\Portfolio\images\retail-analytics-image.jpg" alt="Customer Analytics">
+                <h3 class="job-title"> Customer Analytics: CLV Prediction & Churn Risk Analysis</h3>
+                <p class="job-details">
+                    Analyzed 25K+ customer transactions to segment high-value cohorts using RFM and K-Means clustering. Predicted lifetime value and purchase frequency with BG/NBD and Gamma-Gamma models, assessed churn risk through Kaplan-Meier survival analysis, and uncovered cross-sell opportunities via Market Basket Analysis.
+                </p>
+                <div class="skill-tags">
+                <div class="skill-chip">Python</div>
+                <div class="skill-chip">Machine Learning</div>
+                <div class="skill-chip">Statistical Modeling</div>
+                <div class="skill-chip">Customer Segmentation</div>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://github.com/Maitri3880/Customer-Lifetime-Value-Prediction-and-Segmentation" class="skill-chip project-link">Code</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="timeline-card" data-aos="fade-up" data-aos-delay="0">
+                <img src="C:\Users\User\OneDrive\Desktop\Portfolio\images\job-scam-image.png" alt="Job Scam Detection">
+                <h3 class="job-title">Job Scam Detection</h3>
+                <p class="job-details">
+                    Built a fraud detection system to identify fake job postings using machine learning classification models. Preprocessed text data and engineered features from job posting attributes, achieving 93% accuracy with ensemble methods (Random Forest, Logistic Regression, Naive Bayes, KNN) to protect job seekers from fraudulent listings.
+                </p>
+                <div class="skill-tags">
+                <div class="skill-chip">NLP</div>
+                <div class="skill-chip">Scikit-learn</div>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://github.com/Maitri3880/Job-Scam-Detection" class="skill-chip project-link">Code</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="timeline-card" data-aos="fade-up" data-aos-delay="20">
+                <img src="C:\Users\User\OneDrive\Desktop\Portfolio\images\Amazon-analysis.png" alt="Amazon Dashboard">
+                <h3 class="job-title">Amazon Product Sentiment Analysis Dashboard</h3>
+                <p class="job-details">
+                    Developed an interactive dashboard analyzing products and reviews, providing comprehensive insights into product ratings, sentiments, and market trends.
+                </p>
+                <div class="skill-tags">
+                <div class="skill-chip">Tableau</div>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://public.tableau.com/app/profile/maitri.mistry7733/viz/AmazonProductsSentimentAnalysis/Overview" class="skill-chip project-link">Dashboard</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="timeline-card" data-aos="fade-up" data-aos-delay="20">
+                <img src="C:\Users\User\OneDrive\Desktop\Portfolio\images\loan-dashboard-summary.png" alt="Excel Dashboard">
+                <h3 class="job-title">Loan Performance Analysis</h3>
+                <p class="job-details">
+                    Developed a comprehensive Excel dashboard analyzing bank loan operations, providing deep insights into loan operations and key financial metrics, enabling data-driven decisions for financial institutions and stakeholders.        
+                </p>
+                <div class="skill-tags">
+                <div class="skill-chip">Excel</div>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://github.com/Maitri3880/Loan-Performance-Analytics-using-Excel" class="skill-chip project-link">Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="view-all-projects-box">
+        <a href="https://github.com/Maitri3880?tab=repositories" class="view-projects-link" target="_blank">
+            <div class="projects-content">
+                <i class="fas fa-folder-open icon-left"></i>
+                <div class="text-content">
+                    <h3>View All Projects</h3>
+                    <p>Explore my complete project portfolio</p>
+                </div>
+                <i class="fas fa-external-link-alt icon-right"></i>
+            </div>
+        </a>
+    </div>
+
+    <!-- Contact Section HTML -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>maitri.mistry3880@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>United States</p>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 (443) 320-3273</p>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/maitri-mistry/" class="social-btn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Maitri3880" class="social-btn" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:maitri.mistry3880@gmail.com" class="social-btn">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="5488b8f0-560e-4b98-affe-ff424e35cf36">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your message here..." required></textarea>
+
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+
+            <!-- Confirmation message -->
+            <p id="form-status" style="display:none;"></p>
+
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
